@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  background-color: black;
+}
+.container {
+  max-width: 90%;
+  margin-left: 100px;
+  margin-right: 250px;
+  padding: 10px;
+  margin-top: 40px;
+}
+form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+input {
+  background: none;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid whitesmoke;
+  color: white;
+}
+#question {
+  width: 100%;
+}
+
+/* #bg {
+  z-index: -1;
+  background-image: url("deltaLogoGreen.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: left left;
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    }
+#btn {
+  background: white;
+  color: black;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Dancing Script", cursive;
+}
+#logout {
+  width: 100px;
+}
+#back {
+  width: 100px;
+}
+
+.nav {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+}
+.nav button {
+  margin: auto;
+  color: white;
+  background-color: blueviolet;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.details{
+    width: 30%;
+     display: flex;
+     flex-direction: column;
+  color: bisque;
+ }
+ #img{
+    width: 200px;
+   height: 200px;
+   
+          }
+          h5{
+            font-size: 20px;
+            padding-left: 20px;
+        
+        }
+        .bottom{
+          font-size: 20px;
+         position:absolute;
+          bottom: 30px;
+          margin-left: 44%;
+      }

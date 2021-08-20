@@ -1,0 +1,11 @@
+<?php
+session_start();
+$server="localhost";
+$username="root";
+$password="";
+$database="delta_task3";
+$con=mysqli_connect($server,$username,$password,$database);
+session_destroy();
+header("location:login.php");
+$con->close();
+?>

@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+    background-color: black;
+  }
+  .container {
+   width: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    margin-top: 40px;
+  }
+ 
+  
+  
+ 
+  .main{
+      display: flex;
+      flex-direction: row;
+      
+      }
+
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+  }
+  #logout {
+    width: 100px;
+  }
+  #back {
+    width: 100px;
+  }
+  
+  .nav {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+  }
+  .nav button {
+    margin: auto;
+    color: white;
+    background-color: blueviolet;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .details{
+      width: 25%;
+       display: flex;
+       flex-direction: column;
+    color: bisque;
+   }
+   #img{
+      width: 200px;
+     height: 200px;
+     margin-left: 150px;
+            }
+            h5{
+              font-size: 20px;
+              padding-left: 20px;
+          
+          }
+          h4{
+            font-size: 20px;
+            padding-left: 20px;
+          font-family: sans-serif;
+         text-align: center;
+          color: green;
+        }
+        h2{
+            font-size: 20px;
+            padding-left: 20px;
+          font-family: sans-serif;
+          text-align: center;
+          margin-top: 30px;
+         
+        }
+        .table {
+  
+            border: 1px solid white;
+            margin: auto;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgb(208, 218, 217);
+            align-items: center;
+        }
+        .table th tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: center;
+            border: 1px solid white;
+        }
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            border: 1px solid white;
+        }
+        .bottom{
+          font-size: 20px;
+         position:absolute;
+          bottom: 30px;
+          margin-left: 44%;
+      }
